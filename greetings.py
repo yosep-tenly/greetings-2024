@@ -13,4 +13,4 @@ subprocess.run(['say', '-v', 'Good News', 'Happy Holiday, Digital Stream ...', '
 for member in digital_stream:
     greeting=f'Happy Holiday, {member}...!'
     print(greeting)
-    subprocess.run(['say', '-v', 'Good News', greeting, '-o', f'{member}.aiff']) 
+    subprocess.run(['say', '-v', 'Good News', greeting, '-o', f'output/{member}.aiff']) 
